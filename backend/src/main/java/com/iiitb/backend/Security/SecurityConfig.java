@@ -10,7 +10,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @RequiredArgsConstructor
 public class SecurityConfig /*implements WebMvcConfigurer*/ {
 
-    
+
 
     //password encoder is used in encryption service so creating an object in IOC and have set it no password encoder type
     @Bean
